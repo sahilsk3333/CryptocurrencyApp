@@ -5,6 +5,8 @@ A Simple CryptocurrencyApp Developed Using JetCompose with Clean Architecture an
 - Written in Kotlin
 - JetCompose 
 - Dagger Hilt (For dependency Injection)
+- RoomDatabase (For Offline Cache)
+- RetroFit (For Api Calls)
 - MVVM with Clean Architecture
 - JetPack (Android Architecture Components)
 - Kotlin coroutine for Asynchronous processes
