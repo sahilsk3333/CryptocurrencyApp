@@ -1,9 +1,13 @@
 package com.sahilpc.cryptocurrencyapp.data.remote.dto
 
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 import com.sahilpc.cryptocurrencyapp.domain.model.Coin
 
+@Entity
 data class CoinDto(
+    @PrimaryKey(autoGenerate = false)
     val id: String,
     @SerializedName("is_active")
     val isActive: Boolean,
